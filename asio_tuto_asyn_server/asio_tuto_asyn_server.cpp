@@ -99,7 +99,7 @@ int main()
         tcp_server server(io_context);
         io_context.run();
     }
-    catch (std::exception & e)
+    catch (std::exception &e)
     {
         std::cerr << e.what() << std::endl;
     }
